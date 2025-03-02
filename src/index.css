@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.section {
+  @apply lg:h-screen flex items-center py-8 lg:py-24;
+}
+body {
+  background-color:#154c79;
+  background-size: cover;
+  overflow-x: hidden;
+}
