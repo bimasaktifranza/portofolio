@@ -10,14 +10,19 @@ export default function Halaman5() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-transparent" id="Halaman5">
+    <div
+      className="flex justify-center items-center min-h-screen bg-transparent"
+      id="Halaman5"
+    >
       <form
         onSubmit={handleSubmit}
         className="bg-white p-6 rounded-lg shadow-md w-96"
       >
         <h2 className="text-2xl font-semibold mb-4 text-center">Contact Me</h2>
         <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2">Email</label>
+          <label className="block text-gray-700 text-sm font-bold mb-2">
+            Email
+          </label>
           <input
             type="email"
             value={email}
@@ -27,7 +32,9 @@ export default function Halaman5() {
           />
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2">Message</label>
+          <label className="block text-gray-700 text-sm font-bold mb-2">
+            Message
+          </label>
           <textarea
             value={message}
             onChange={(e) => setMessage(e.target.value)}
