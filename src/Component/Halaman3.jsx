@@ -11,7 +11,7 @@ function Halaman3() {
           <div className="text-center w-full max-w-[500] mx-auto mb-[50px]">
             <div className="flex justify-between items-center">
               <img
-                src="./src/image/fotovolii.png"
+                src="/image/fotovolii.png"
                 alt=""
                 className="rounded-full border-black border-4"
               />

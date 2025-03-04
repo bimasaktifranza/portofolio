@@ -7,7 +7,7 @@ function Halaman1() {
       <div className="w-full">
         <div className="flex justify-center">
           <img
-            src="./src/image/fotobima.png"
+            src="/image/fotobima.png"
             alt=""
             className="w-[300px] h-[300px] border-4 border-black rounded-full "
           />

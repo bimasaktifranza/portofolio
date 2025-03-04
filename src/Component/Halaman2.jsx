@@ -7,7 +7,7 @@ function Halaman2() {
       <div className="px-20 mx-auto">
         <div className="flex">
           <img
-            src="./src/image/foto2.png"
+            src="/image/foto2.png"
             alt=""
             className="w-[300px] h-[300px] border-4 border-black rounded-full "
           />
