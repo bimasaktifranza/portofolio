@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <div className="fixed top-0 left-0 w-full bg-black flex items-center justify between px-5 py-2 shadow-md gap-5 font-bold">
       <img
-        src="./src/image/Solutions-website-logo-png.png"
+        src="/image/Solutions-website-logo-png.png"
         alt="logo"
         className="h-10 w-10 object-containt"
       />

@@ -7,20 +7,21 @@ function Halaman3() {
             PERFORMANCE
           </h2>
         </div>
-        <div className="flex flex-col items-start justify-between">
-          <div className="text-center w-full max-w-[500] mx-auto mb-[50px]">
-            <div className="flex justify-between items-center">
+        <div className="flex items-start justify-between">
+          <div className="text-center w-full max-w-[500] mb-[50px]">
+            <div className="flex mx-auto justify-between">
               <img
                 src="/image/fotovolii.png"
                 alt=""
                 className="rounded-full border-black border-4"
               />
-
-              <table className="w-1/2 h-[150px] mx-auto">
-                <thead className="bg-slate-400 ">
+             
+              <div className="flex mx-auto  items-center ml-40">
+              <table className="w-[600px] h-[300px]">
+                <thead className="bg-slate-400  ">
                   <tr>
-                    <th className="p-2 border-1 tracking-wide">Tahun</th>
-                    <th className="p-2 border-1 tracking-wide">
+                    <th className="p-2 border-1 tracking-wide ">Tahun</th>
+                    <th className="p-2 border-1 tracking-wide pr-30">
                       Jenis Prestasi
                     </th>
                   </tr>
@@ -28,31 +29,32 @@ function Halaman3() {
                 <tbody className="bg-gray-100 border-1 border-black">
                   <tr>
                     <td className="p-2 border-1 text-center">2013</td>
-                    <td className="p-2 border-1">
+                    <td className="p-2 border-1 pr-30">
                       Juara 3 Pencak Silat GSB IV Kab.Tanah Datar
                     </td>
                   </tr>
                   <tr>
                     <td className="p-2 border-1 text-center">2019</td>
-                    <td className="p-2 border-1">
+                    <td className="p-2 border-1 pr-30">
                       Juara 3 Voli Bupati Cup Kab.Tanah Datar
                     </td>
                   </tr>
                   <tr>
                     <td className="p-2 border-1 text-center">2020</td>
-                    <td className="p-2 border-1">
+                    <td className="p-2 border-1 pr-30">
                       Juara 1 Voli SMA se-Sumatera Barat
                     </td>
                   </tr>
                   <tr>
-                    <td className="p-2 border-1 text-center">2022</td>
-                    <td className="p-2 border-1">
+                    <td className="p-2 border-1  text-center">2022</td>
+                    <td className="p-2 border-1 pr-30">
                       Semifinalis Voli Bupati Cup Kab.Tanah Datar
                     </td>
                   </tr>
                 </tbody>
               </table>
-            </div>
+              </div>
+              </div>
           </div>
         </div>
       </div>
